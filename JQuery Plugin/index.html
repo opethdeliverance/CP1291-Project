@@ -10,15 +10,23 @@
   <main>
     <h1>Welcome to ImageRandPLUS!</h1> 
     
-    <input type="button" id="enter" value="Show Images">
-    <ul id="image_list">
+    <input type="button" id="enter" value="Start ImageRandPLUS">
+    <ul id="image_list" style = "display: none">
         <li><a><img src="images/logo1.jpg" alt="Opeth"></a></li>
 		    <li><a><img src="images/logo2.jpg" alt="Iron Maiden"></a></li>
 		    <li><a><img src="images/logo3.jpg" alt="Misfits"></a></li>
 		    <li><a><img src="images/logo4.jpg" alt="Crass"></a></li>
 		    <li><a><img src="images/logo5.jpg" alt="Immortal"></a></li>
+        
+        <!-- TO ADD IMAGE TO ImageRandPLUS: follow this templatre
+          <li><a><img src="enter file name here" alt="enter caption here"></a></li>
+         -->
 
     </ul>
+
+    <div id="rand_list" display="none">
+      
+    </div>
     
   </main> 
   <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
